@@ -1,0 +1,11 @@
+body {
+  background-image: url('/assets/288-2886270_cyberpunk-pixel-art-gif.gif') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
+
+/* خلي المحتوى شفاف شوي */
+#core-wrapper {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
