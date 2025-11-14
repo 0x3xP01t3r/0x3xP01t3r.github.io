@@ -3,47 +3,80 @@
 
 @import 'main';
 
-/* ==== Custom dark theme with animated GIF background ==== */
+/* ==== Custom dark theme with anime GIF background (safe) ==== */
 
 @media (prefers-color-scheme: dark) {
   html:not([data-mode]), html[data-mode='dark'] {
 
+    /* خلفية عامة للموقع (الـ GIF) */
     body {
-      /* نحط الخلفية GIF */
-      background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3JvdG1zeGQwNzNsc2RiaHM0ZzY0bjR4bHVkeTRoMGVheGd1dnExeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26h0qLFdOBklnBsyI/giphy.gif');
+      background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MGN0c2c4OHZ6cW40dzVzZ2Z1bmV2ZnFnbXBrYjd4eDI4aTRtcm9pMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/UMXpgbLC6Cd2Lh4nNb/giphy.gif');
       background-repeat: no-repeat;
       background-size: cover;
-      background-attachment: fixed;  /* يضل ثابت */
+      background-attachment: fixed;  /* الخلفية تظل ثابتة */
       background-position: center;
       color: #e5e5e5;
     }
 
-    /* عشان القراءة ما تروح، نخلي البوستات بصندوق غامق فوق الخلفية */
+    /* نخلي الكونتنت فوق خلفية غامقة وواضحة */
     .post,
     .post-preview,
     .card,
-    .content,
-    .page {
-      background-color: rgba(2, 3, 10, 0.92); /* سودة مع شفافية خفيفة */
-      border-radius: 12px;
-      border: 1px solid #0f172a;
-      backdrop-filter: blur(4px);
+    .page,
+    .content {
+      background-color: rgba(10, 10, 15, 0.96); /* صندوق غامق شبه ثابت */
+      border-radius: 16px;
+      border: 1px solid #020617;
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.8);
     }
 
-    /* النافبار/السايدبار */
+    /* البدي الأساسي داخل البوست */
+    .post-content,
+    .post-body {
+      background: transparent;
+    }
+
+    /* النافبار و السايدبار */
     .navbar,
     #sidebar {
-      background-color: rgba(2, 3, 10, 0.96);
-      border-bottom: 1px solid #0f172a;
+      background-color: rgba(10, 10, 20, 0.97);
+      border-bottom: 1px solid #020617;
+      backdrop-filter: blur(6px);
+    }
+
+    /* الخلفية خلف المحتوى الرئيسي (لو موجودة) */
+    #main-wrapper,
+    .main {
+      background-color: rgba(3, 7, 18, 0.80);
+    }
+
+    /* الصور جوّا البوستات تكون مرتّبة */
+    .post img,
+    .page img,
+    .post-preview img {
+      display: block;
+      margin: 0.75rem auto;
+      border-radius: 12px;
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+      background-color: #020617; /* لو الصورة فيها شفافية */
     }
 
     /* الروابط */
     a {
-      color: #22d3ee;        /* سماوي */
+      color: #38bdf8;            /* سماوي هادئ */
     }
 
     a:hover {
-      color: #a855f7;        /* بنفسجي نيون */
+      color: #a855f7;            /* بنفسجي نيون بسيط */
+    }
+
+    /* كود بلوكات */
+    pre,
+    code {
+      background-color: #020617;
+      border-radius: 10px;
     }
   }
 }
