@@ -1,37 +1,49 @@
 ---
 ---
 
-@import 'jekyll-theme-chirpy';
+@import 'main';
 
-/* Matrix Dark Animated Background */
-body {
-  background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXVpb2VyczBsd3hvMG04anVjOWM0aWJpMG1ua2IxZ3B0NnVlenJ3eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26h0qLFdOBklnBsyI/giphy.gif');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-color: #000;
-}
+/* ==== Custom dark theme with animated GIF background ==== */
 
-/* Make content readable */
-#main-wrapper {
-  background: rgba(10, 10, 10, 0.92);
-  backdrop-filter: blur(8px);
-  border-radius: 10px;
-  margin: 20px;
-  padding: 20px;
-}
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode]), html[data-mode='dark'] {
 
-.card, #panel-wrapper {
-  background: rgba(15, 15, 15, 0.95) !important;
-  border: 1px solid rgba(0, 255, 136, 0.1);
-}
+    body {
+      /* نحط الخلفية GIF */
+      background-image: url('/assets/img/matrix-rain.gif');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;  /* يضل ثابت */
+      background-position: center;
+      color: #e5e5e5;
+    }
 
-#topbar-wrapper {
-  background: rgba(10, 10, 10, 0.95) !important;
-  backdrop-filter: blur(10px);
-}
+    /* عشان القراءة ما تروح، نخلي البوستات بصندوق غامق فوق الخلفية */
+    .post,
+    .post-preview,
+    .card,
+    .content,
+    .page {
+      background-color: rgba(2, 3, 10, 0.92); /* سودة مع شفافية خفيفة */
+      border-radius: 12px;
+      border: 1px solid #0f172a;
+      backdrop-filter: blur(4px);
+    }
 
-#sidebar {
-  background: rgba(10, 10, 10, 0.95) !important;
+    /* النافبار/السايدبار */
+    .navbar,
+    #sidebar {
+      background-color: rgba(2, 3, 10, 0.96);
+      border-bottom: 1px solid #0f172a;
+    }
+
+    /* الروابط */
+    a {
+      color: #22d3ee;        /* سماوي */
+    }
+
+    a:hover {
+      color: #a855f7;        /* بنفسجي نيون */
+    }
+  }
 }
