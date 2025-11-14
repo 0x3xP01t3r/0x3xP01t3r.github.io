@@ -1,0 +1,15 @@
+@import "{{ site.theme }}";
+
+body {
+  background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXVpb2VyczBsd3hvMG04anVjOWM0aWJpMG1ua2IxZ3B0NnVlenJ3eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26h0qLFdOBklnBsyI/giphy.gif');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+#main-wrapper {
+  background: rgba(10, 10, 10, 0.92);
+  backdrop-filter: blur(8px);
+}
