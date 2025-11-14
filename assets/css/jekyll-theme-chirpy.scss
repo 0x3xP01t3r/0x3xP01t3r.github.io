@@ -3,16 +3,26 @@
 
 @import 'main';
 
-/* فقط نضيف خلفية GIF في الوضع الداكن بدون ما نعدّل على الثيم */
+/* خلفية GIF على كل الصفحة في الوضع الداكن + شريط اليسار شفاف */
 
 @media (prefers-color-scheme: dark) {
   html:not([data-mode]), html[data-mode='dark'] {
+
+    /* الخلفية العامة للموقع */
     body {
       background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MGN0c2c4OHZ6cW40dzVzZ2Z1bmV2ZnFnbXBrYjd4eDI4aTRtcm9pMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/UMXpgbLC6Cd2Lh4nNb/giphy.gif');
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
+    }
+
+    /* نخلي الشريط اللي عاليسار شفاف عشان يبين الـ GIF */
+    #sidebar,
+    #sidebar::before {
+      background-color: transparent !important;
+      background-image: none !important;
+      box-shadow: none;
     }
   }
 }
