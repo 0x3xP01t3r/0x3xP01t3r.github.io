@@ -1,5 +1,9 @@
+---
+---
+
 @import "{{ site.theme }}";
 
+/* Matrix Dark Animated Background */
 body {
   background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXVpb2VyczBsd3hvMG04anVjOWM0aWJpMG1ua2IxZ3B0NnVlenJ3eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26h0qLFdOBklnBsyI/giphy.gif');
   background-size: cover;
@@ -9,7 +13,25 @@ body {
   background-color: #000;
 }
 
+/* Make content readable */
 #main-wrapper {
   background: rgba(10, 10, 10, 0.92);
   backdrop-filter: blur(8px);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.card, #panel-wrapper {
+  background: rgba(15, 15, 15, 0.95) !important;
+  border: 1px solid rgba(0, 255, 136, 0.1);
+}
+
+#topbar-wrapper {
+  background: rgba(10, 10, 10, 0.95) !important;
+  backdrop-filter: blur(10px);
+}
+
+#sidebar {
+  background: rgba(10, 10, 10, 0.95) !important;
 }
