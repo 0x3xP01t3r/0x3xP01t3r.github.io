@@ -150,7 +150,7 @@ This mismatch allows us to smuggle an `IsAdmin=true` value via XML.
 ### Exploitation
 
 ### Step 1: Send crafted XML payload to `/user`
-We can craft an XML request that sets [`IsAdmin=true`](https://blog.trailofbits.com/2025/06/17/unexpected-security-footguns-in-gos-parsers/#:~:text=_%20%3D%20json.Unmarshal(%5B%5Dbyte(%60%7B%22,IsAdmin%3Atrue):
+We can craft an XML request that sets `[IsAdmin=true](https://blog.trailofbits.com/2025/06/17/unexpected-security-footguns-in-gos-parsers/#:~:text=_%20%3D%20json.Unmarshal(%5B%5Dbyte(%60%7B%22,IsAdmin%3Atrue)`:
 
 ```http
 POST /user HTTP/1.1
