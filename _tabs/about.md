@@ -137,7 +137,7 @@ order: 5
   <div class="about-name">Abdullhafeeth Marabit</div>
   <div class="about-title">aka 0x3xP01t3r</div>
   <p class="about-text">
-    I am a cybersecurity graduate focused on memory forensics, web application security, and penetration testing.
+    I am a cybersecurity graduate focused on DFIR, web application security, and penetration testing.
     I hold multiple offensive-security certifications, including CRTP, eCPPT, eWPTX, CRTA, and KWAPTA.
     My goal is to keep building practical security tools, sharing knowledge, and contributing to the cybersecurity community through research, CTFs, and hands-on projects.
   </p>
@@ -179,7 +179,7 @@ order: 5
 </div>
 <div class="cert-card">
   <a class="cert-preview" href="https://credential.knightsquad.academy/KSA-FXJKHWAX1204" target="_blank" rel="noopener" aria-label="View KWAPTA certificate">
-    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/KWAPTA.jpg')"></div>
+    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/kWAPTA.jpg')"></div>
     <div class="cert-overlay"><span><i class="fas fa-external-link-alt"></i> View Certificate</span></div>
   </a>
   <div class="cert-footer"><div><a class="cert-name" href="https://credential.knightsquad.academy/KSA-FXJKHWAX1204" target="_blank" rel="noopener">KWAPTA</a><div class="cert-issuer">Knight Squad Academy</div></div></div>
