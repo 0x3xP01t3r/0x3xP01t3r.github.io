@@ -283,12 +283,12 @@ order: 5
     <p class="profile-text">
       I am a cybersecurity graduate focused on DFIR, web application security, and penetration testing.
       I hold multiple offensive-security certifications, including CRTP, eCPPT, eWPTX, CRTA, and KWAPTA.
-      My goal is to keep building practical security tools, sharing knowledge, and contributing to the cybersecurity community through research, CTFs, and hands-on projects.
+      My goal is sharing knowledge, and contributing to the cybersecurity community through research, CTFs, and hands-on projects.
     </p>
   </div>
 
   <div class="focus-card">
-    <div class="focus-item"><i class="fas fa-microscope"></i><span>DFIR & Memory Forensics</span></div>
+    <div class="focus-item"><i class="fas fa-microscope"></i><span>DFIR </span></div>
     <div class="focus-item"><i class="fas fa-bug"></i><span>Web Application Security</span></div>
     <div class="focus-item"><i class="fas fa-flag"></i><span>CTFs & Challenge Building</span></div>
     <div class="focus-item"><i class="fas fa-tools"></i><span>Security Tool Development</span></div>
