@@ -177,12 +177,6 @@ order: 5
   </a>
   <div class="cert-footer"><div><a class="cert-name" href="https://labs.cyberwarfare.live/credential/achievement/6887ea98f4c7625a294aa2a0" target="_blank" rel="noopener">CRTA</a><div class="cert-issuer">Cyberwarfare Labs</div></div></div>
 </div>
-<div class="cert-card">
-  <a class="cert-preview" href="https://credential.knightsquad.academy/KSA-FXJKHWAX1204" target="_blank" rel="noopener" aria-label="View KWAPTA certificate">
-    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/kWAPTA.jpg')"></div>
-    <div class="cert-overlay"><span><i class="fas fa-external-link-alt"></i> View Certificate</span></div>
-  </a>
-  <div class="cert-footer"><div><a class="cert-name" href="https://credential.knightsquad.academy/KSA-FXJKHWAX1204" target="_blank" rel="noopener">KWAPTA</a><div class="cert-issuer">Knight Squad Academy</div></div></div>
-</div>
+
 
 </div>
