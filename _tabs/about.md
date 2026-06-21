@@ -149,7 +149,7 @@ order: 5
 
 <div class="cert-card">
   <a class="cert-preview" href="https://www.credential.net/8b866ba9-8b2f-40e6-81d3-b11b3c7bf00c#acc.i7eSX2Fu" target="_blank" rel="noopener" aria-label="View CRTP certificate">
-    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/CRTP.png')"></div>
+    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/CRTP.jpg')"></div>
     <div class="cert-overlay"><span><i class="fas fa-external-link-alt"></i> View Certificate</span></div>
   </a>
   <div class="cert-footer"><div><a class="cert-name" href="https://www.credential.net/8b866ba9-8b2f-40e6-81d3-b11b3c7bf00c#acc.i7eSX2Fu" target="_blank" rel="noopener">CRTP</a><div class="cert-issuer">Altered Security</div></div></div>
@@ -157,7 +157,7 @@ order: 5
 
 <div class="cert-card">
   <a class="cert-preview" href="https://certs.ine.com/494ad202-4cc7-48cc-958b-22c815ab43d2#acc.2q0TumXL" target="_blank" rel="noopener" aria-label="View eCPPT certificate">
-    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/eCPPT.png')"></div>
+    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/eCPPT.jpg')"></div>
     <div class="cert-overlay"><span><i class="fas fa-external-link-alt"></i> View Certificate</span></div>
   </a>
   <div class="cert-footer"><div><a class="cert-name" href="https://certs.ine.com/494ad202-4cc7-48cc-958b-22c815ab43d2#acc.2q0TumXL" target="_blank" rel="noopener">eCPPT</a><div class="cert-issuer">INE Security</div></div></div>
@@ -165,21 +165,21 @@ order: 5
 
 <div class="cert-card">
   <a class="cert-preview" href="https://certs.ine.com/a96b62f9-2747-4162-911c-4cd397d1a637#acc.vrNhZYIJ" target="_blank" rel="noopener" aria-label="View eWPTX certificate">
-    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/eWPTX.png')"></div>
+    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/eWPTX.jpg')"></div>
     <div class="cert-overlay"><span><i class="fas fa-external-link-alt"></i> View Certificate</span></div>
   </a>
   <div class="cert-footer"><div><a class="cert-name" href="https://certs.ine.com/a96b62f9-2747-4162-911c-4cd397d1a637#acc.vrNhZYIJ" target="_blank" rel="noopener">eWPTX</a><div class="cert-issuer">INE Security</div></div></div>
 </div>
 <div class="cert-card">
   <a class="cert-preview" href="https://labs.cyberwarfare.live/credential/achievement/6887ea98f4c7625a294aa2a0" target="_blank" rel="noopener" aria-label="View CRTA certificate">
-    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/CRTA.png')"></div>
+    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/CRTA.jpg')"></div>
     <div class="cert-overlay"><span><i class="fas fa-external-link-alt"></i> View Certificate</span></div>
   </a>
   <div class="cert-footer"><div><a class="cert-name" href="https://labs.cyberwarfare.live/credential/achievement/6887ea98f4c7625a294aa2a0" target="_blank" rel="noopener">CRTA</a><div class="cert-issuer">Cyberwarfare Labs</div></div></div>
 </div>
 <div class="cert-card">
   <a class="cert-preview" href="https://credential.knightsquad.academy/KSA-FXJKHWAX1204" target="_blank" rel="noopener" aria-label="View KWAPTA certificate">
-    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/KWAPTA.png')"></div>
+    <div class="cert-preview-img" style="background-image: url('/assets/img/certs/KWAPTA.jpg')"></div>
     <div class="cert-overlay"><span><i class="fas fa-external-link-alt"></i> View Certificate</span></div>
   </a>
   <div class="cert-footer"><div><a class="cert-name" href="https://credential.knightsquad.academy/KSA-FXJKHWAX1204" target="_blank" rel="noopener">KWAPTA</a><div class="cert-issuer">Knight Squad Academy</div></div></div>
